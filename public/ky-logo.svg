@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="kyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="kyAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Square Frame -->
+  <rect x="4" y="4" width="112" height="112" rx="28" fill="url(#kyBg)" stroke="rgba(255,255,255,0.12)" stroke-width="4" />
+  
+  <!-- Subtle inner border ring -->
+  <rect x="10" y="10" width="100" height="100" rx="22" fill="none" stroke="rgba(59,130,246,0.2)" stroke-width="1.5" />
+  
+  <!-- KY Text -->
+  <text x="44" y="75" font-family="'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="-3" text-anchor="middle">KY</text>
+  
+  <!-- Accent Dot -->
+  <circle cx="82" cy="72" r="5.5" fill="url(#kyAccent)" />
+  
+  <!-- Modern top right mini indicator -->
+  <circle cx="98" cy="22" r="4" fill="#3b82f6" opacity="0.9" />
+</svg>
+
